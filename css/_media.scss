@@ -1,0 +1,163 @@
+/* === DESKTOP FIRST === */
+
+/* xl <= Extra extra large (xxl) */
+@media (max-width: 1400px) {
+
+}
+
+/* lg <= Extra large (xl) */
+@media (max-width: 1200px) {
+
+}
+
+/* md <= Large (lg) */
+@media (max-width: 992px) {
+
+}
+
+/* sm <= Medium (md) */
+@media (max-width: 768px) {
+
+}
+
+/* xs <= Small (sm) */
+@media (max-width: 576px) {
+
+}
+
+
+/* === MOBILE FIRST === */
+
+/* Custom (xs) */
+@media (min-width: 0) {
+
+}
+
+/* Small (sm) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+
+}
+
+/* Large (lg) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large (xl) */
+@media (min-width: 1200px) {
+
+}
+
+/* Extra extra large (xxl) */
+@media (min-width: 1400px) {
+    .text {
+        font-size: 22px;
+    }
+}
+
+/* Extra extra extra large (xxxl) */
+@media (min-width: 1650px) {
+    .img-fluid {
+        max-width: none;
+    }
+}
+
+
+/* MAX-WIDTH */
+/* Small (sm) */
+@media (max-width: 640px) {
+    .container-fluid {
+        --bs-gutter-x: 0rem;
+        max-width: 640px;
+        /*background-color: red;*/
+}
+    section.box{
+        padding: 0 15px;
+    }
+    .contact .contact__form{
+        width: 320px;
+    }
+    .contact .contact__left-col-heading {
+        text-align: center;
+    }
+    .testimonials .slick-dots li {
+        width: calc(84% / 3);
+    }
+}
+
+/* Medium (md) */
+@media (max-width: 768px) {
+
+    .content-slick {
+        padding: 0 0 0 0;
+    }
+    .content-slick__txt{
+        margin: 0 0 0 0;
+        padding: 15px;
+    }
+
+}
+
+/* Large (lg) */
+@media (max-width: 992px) {
+    .navbar-header {
+        padding: 9px 10px 0 30px;
+    }
+}
+
+
+/* Extra large (xl) */
+@media (max-width: 1200px) {
+    .hero-left-col__wrapper {
+        margin: 30px;
+    }
+    .testimonials .content-slick {
+        flex-direction: column;
+        align-items: center ;
+    }
+    .testimonials .heading-arrows-wrapper {
+        flex-direction: column;
+        align-items: center ;
+    }
+    .testimonials .testimonials__heading {
+        text-align: center;
+    }
+    .wrap-slick .slick-dots{
+        width: auto;
+    }
+    .slick-paging {
+        width: auto;
+    }
+    .slick-slide {
+        width: auto;
+    }
+
+}
+
+/* Extra extra extra large (xxxl) */
+@media (max-width: 1650px) {
+    .box__left-col-wrapper {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .box__left-col {
+        padding: 30px;
+    }
+
+    .contact__left-col-wrapper {
+        margin: 0 0 30px 0;
+    }
+
+    section.contact .contact__form button {
+        display: block;
+        margin: 30px auto 0 auto;
+    }
+}
+
+
